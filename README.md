@@ -1,1 +1,1 @@
-# landing-page-template
+A partir da ideia do projeto 4Food, criamos a Labenu Bakery. Trata-se de uma padaria artesanal com entregas diárias de cafés da manhã sob medida de acordo com os hábitos alimentares de seus assinantes. Para o lançamento, a empresa contará com três planos de assinatura: Low Carb, Glúten Free e Zero Lactose.  
