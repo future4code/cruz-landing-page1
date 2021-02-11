@@ -5,13 +5,130 @@
     font-family: 'Raleway';
 }
 
-header{
-    height: 70px;
-    background-color: aliceblue;
+/* header */
+
+#banner {
+    height: 100vh;
+    background-image: url("/cruz-landing-page1/img/banner.png");
+    background-size: contain;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color: #FEFAEE;
 }
 
+.container-banner {
+    width: 50vw;
+    float: right;
+    height: 100vh;
+}
+
+.conteudo-banner {
+    width: 40vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    height: 15vh;
+    width: 100%;
+    color: gray;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #2B2B2B;
+    font-size: 18px;
+}
+
+.menu1 {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.menu2 {
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+/* #chamada {
+    float: right; 
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.logo {
+    width: 450px;
+    margin-top: 20px;
+}
+
+.linhachamada {
+    height: .5px;
+    border: .01px solid #FF8B00;
+    background-color: #FF8B00;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.texto-chamada {
+    align-items: center;
+    font-weight: 500;
+    line-height: 45px;
+    font-size: 30px;
+}
+
+
+/* nossos serviços */
+
+#nossos-servicos {
+    background-color: #FF8B00;
+    height: 320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container-produtos {
+    width: 70vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.produtos {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos img {
+    width: 200px;
+
+}
+
+.produtos label {
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+
+
 main{
-    height: 120vh;
+    height: 10vh;
     background-color: rgb(226, 226, 226);
 }
 footer{
