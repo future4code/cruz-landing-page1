@@ -2,5 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Raleway';
+}
+
+header{
+    height: 70px;
+    background-color: aliceblue;
+}
+
+main{
+    height: 120vh;
+    background-color: rgb(226, 226, 226);
+}
+footer{
+    height: 200px;
+    background-color: aliceblue;
 }
