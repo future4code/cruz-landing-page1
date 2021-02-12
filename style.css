@@ -108,6 +108,13 @@ header a {
    display: flex;
     flex-wrap: nowrap;
     justify-content: space-around; 
+    background-color: #FFF6DD;
+    height: 60vh;
+}
+
+.texto-central{
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 button{
@@ -118,6 +125,7 @@ button{
     font-size: 20px;
     background-color:#FF9200;
     border-radius: 20px;
+    height: 50px;
             
 }
 button:hover{
@@ -128,6 +136,11 @@ button:hover{
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
+
+.card-produto{
+    display: flex;
+    flex-direction: column;
 }
 
 .produtos img {
@@ -146,8 +159,8 @@ button:hover{
 /* Nossos diferenciais */
 
 main{
-    height: 10vh;
-    background-color: rgb(226, 226, 226);
+    
+   
 }
 footer{
     height: 200px;
