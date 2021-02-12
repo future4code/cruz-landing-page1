@@ -400,13 +400,5 @@ background-color: #EA8000;
        text-align: center;
        width: min(80%,300px);
    }
-   .localizacao .loc {
-    width: 100%;
- 
-}
-.localizacao .loc p{
-    margin-top: 10px;
- 
-}
 
 }
