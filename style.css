@@ -180,7 +180,6 @@ button:hover{
     flex-direction: column;
 }
 
-
 footer{
     height: 200px;
     background: #FFB800 0% 0% no-repeat padding-box;
@@ -236,36 +235,6 @@ height: 32px;
     width: 24px;
     height: 24px;
     margin-right: 16px;
-}
-
-
-
-
-textarea{
-    grid-row:3 / span 3 ;
-    grid-column: 2;
-    border: 0.8px solid #100546;
-    opacity: 35%;
-    height: 86%;
-    display: flex;
-    width: 99%;
-    margin-left: auto;
-    margin-top: auto;
-    resize: none;
-    /* width: 50%; */
-}
-
-#submit{
-display: block;
-background-color: darkgoldenrod;
-background: none ;
-border: 1px solid #707070;
-border-radius: 28px;
-opacity: 1;
-height: 80%;
-/* width: 13%; */
-margin-left: 50%;
-margin-top: auto;
 }
 
 
