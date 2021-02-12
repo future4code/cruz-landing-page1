@@ -159,6 +159,7 @@ display: flex;
 flex-grow: 1;
 height: 80%;
 margin: auto;
+
 }
 
 .redes-sociais .logo-footer{
@@ -260,7 +261,7 @@ margin-top: auto;
 
 }
 .localizacao .loc {
-  
+    width: min(80%,350px);
    height: 50%;
    flex-grow: 1;
    font-size: 17px;
@@ -274,6 +275,7 @@ margin-top: auto;
 }
 .localizacao .loc p {
     font-family: 'Myriad Pro';
+
 
 }
 .alunos{
