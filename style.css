@@ -105,26 +105,24 @@ header a {
     justify-content: space-around;
 }
 .produto1 {
-    display: flex;
-     flex-wrap: nowrap;
-     justify-content: space-around;
-     color:
-     
- }
- 
- button{
-     border: none;
-     border-top: none;
-     border-right: none;
-     border-left: none;
-     font-size: 20px;
-     background-color:#FF9200;
-     border-radius: 20px;
-             
- }
- button:hover{
-     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
- }
+   display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+}
+
+button{
+    border: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    background-color:#FF9200;
+    border-radius: 20px;
+            
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .produtos {
     display: flex;
     flex-flow: column;
