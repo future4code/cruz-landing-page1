@@ -189,6 +189,9 @@ height: 32px;
     display: flex;
     justify-content: center;
     height: 20%;
+    align-items: center;
+        text-align: center;
+        margin: auto;
 }
 h4{
     font-family: 'Dancing Script';
@@ -251,12 +254,12 @@ border: 1px solid #707070;
 border-radius: 28px;
 opacity: 1;
 height: 80%;
-width: 13%;
-margin-left: auto;
+/* width: 13%; */
+margin-left: 50%;
 margin-top: auto;
 
 }
-.localizacao .loc{
+.localizacao .loc {
   
    height: 50%;
    flex-grow: 1;
@@ -264,10 +267,14 @@ margin-top: auto;
    display: flex;
    flex-direction: column;
    justify-content: center;
-
+   
 }
 .localizacao .loc p:first-of-type{
     font-size: 20px;
+}
+.localizacao .loc p {
+    font-family: 'Myriad Pro';
+
 }
 .alunos{
 display: flex;
@@ -280,7 +287,8 @@ background-color: #EA8000;
 }
 
 footer .localizacao div{
-    font-family: 'Myriad Pro';
+    /* font: normal normal normal 20px/24px Myriad Pro; */
+    /* font-family: 'Myriad Pro'; */
 }
 
 
@@ -289,6 +297,7 @@ label{
     align-items: flex-end;
     /* background-color: cadetblue; */
     font-size: 1.25em;
+    color: #FF8B00;
 }
 
 @media  screen and (max-width:768px){
