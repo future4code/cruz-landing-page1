@@ -5,13 +5,130 @@
     font-family: 'Raleway';
 }
 
-header{
-    height: 70px;
-    background-color: aliceblue;
+/* header */
+
+#banner {
+    height: 100vh;
+    background-image: url("/cruz-landing-page1/img/banner.png");
+    background-size: contain;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color: #FEFAEE;
 }
 
+.container-banner {
+    width: 50vw;
+    float: right;
+    height: 100vh;
+}
+
+.conteudo-banner {
+    width: 40vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    height: 15vh;
+    width: 100%;
+    color: gray;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #2B2B2B;
+    font-size: 18px;
+}
+
+.menu1 {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.menu2 {
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+/* #chamada {
+    float: right; 
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.logo {
+    width: 450px;
+    margin-top: 20px;
+}
+
+.linhachamada {
+    height: .5px;
+    border: .01px solid #FF8B00;
+    background-color: #FF8B00;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.texto-chamada {
+    align-items: center;
+    font-weight: 500;
+    line-height: 45px;
+    font-size: 30px;
+}
+
+
+/* nossos serviços */
+
+#nossos-servicos {
+    background-color: #FF8B00;
+    height: 320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container-produtos {
+    width: 70vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.produtos {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtos img {
+    width: 200px;
+
+}
+
+.produtos label {
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+
+
 main{
-    height: 120vh;
+    height: 10vh;
     background-color: rgb(226, 226, 226);
 }
 footer{
@@ -19,37 +136,29 @@ footer{
     background: #FFB800 0% 0% no-repeat padding-box;
     color:white;
     opacity: 1;
-    /* display: grid; */
     display: flex;
     height: 400px;
     flex-direction: column;
-    /* grid-template-columns: 1fr 1fr;
-    grid-template-rows: 7fr 1fr; */
 }
 
 .container-footer{
     display: flex;
     flex-grow: 7;
-    /* width: 50%; */
-/* grid-row: 3fr; */
 background-color: #FF8B00;
 
 }
 
 .redes-sociais{
     display: flex;
-/* flex-grow: 1; */
 width: 50%;
     flex-direction: column;
 }
 .localizacao{
-
 flex-direction: column;
 display: flex;
 flex-grow: 1;
 height: 80%;
 margin: auto;
-/* background-color: red; */
 }
 
 .redes-sociais .logo{
@@ -67,10 +176,13 @@ margin: auto;
     
 }
 .redes-sociais .icones img{
-
-/* background-color: burlywood; */
 width: 32px;
 height: 32px;
+}
+.phone{
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
 }
 
 .h4{
@@ -81,7 +193,7 @@ height: 32px;
 h4{
     font-family: 'Dancing Script';
     color: #FFB800;
-    font-size: 60px;
+    font-size: 3.75em;
 }
 section{
     height: 600px;
@@ -90,7 +202,6 @@ form{
     display: grid;
     grid-template-rows: repeat(8,1fr);
     grid-template-columns: 1fr 1fr;
-    /* height: 50%; */
     color:#ACACAC;
     opacity: 100%;
 }
@@ -98,21 +209,16 @@ form{
     height: 80%;
     width: 70%;
     margin: auto;
-    /* background-color: blue; */
 }
 input{
-    /* border-bottom: 4px solid black; */
 border-top: none;
 border-right: none;
 border-left: none;
-/* height: 50%; */
-/* background-color: aquamarine; */
 justify-content: center;
 display: flex;
 color: #100546;
 opacity: 35%;
-font-size: 20px;
-/* border: 1px solid black; */
+font-size: 1.25em;
 background: 
       linear-gradient(#000, #000) center bottom 5px /calc(100% - 10px) 2px no-repeat;
 }
@@ -138,17 +244,16 @@ textarea{
     /* width: 50%; */
 }
 #submit{
-    display: block;
-    background-color: darkgoldenrod;
-    background: none ;
-    border: 1px solid #707070;
+display: block;
+background-color: darkgoldenrod;
+background: none ;
+border: 1px solid #707070;
 border-radius: 28px;
 opacity: 1;
 height: 80%;
 width: 13%;
 margin-left: auto;
 margin-top: auto;
-
 
 }
 .localizacao .loc{
@@ -183,5 +288,62 @@ label{
     display: flex;
     align-items: flex-end;
     /* background-color: cadetblue; */
-    font-size: 20px;
+    font-size: 1.25em;
+}
+
+@media  screen and (max-width:768px){
+    /* body{
+        background-color: red;
+    } */
+
+    form{
+        display: flex;
+        flex-direction: column;
+        /* font-size: 12px; */
+    }
+    .formulario{
+        font-size: 12px;
+        height: 650px;
+    }
+    .h4{
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    label,input{
+        height: 3em;
+    }
+    textarea{
+        height: 6em;
+        margin: auto;
+    }
+    #submit{
+        margin: 10px auto 0;
+        width: 6em;
+    }
+    .container-footer{
+        flex-direction: column;
+    }
+    .redes-sociais{
+        width: auto;
+    }
+    .redes-sociais .logo{
+        width: 50%;
+        justify-content: center;
+        margin: 0 auto;
+ 
+   }
+   .redes-sociais .icones{
+       width: auto;
+       justify-content: center;
+   }
+   .localizacao {
+       text-align: center;
+       width: min(80%,300px);
+   }
+
+   .localizacao .loc{
+       /* max-resolution: 20px; */
+   }
 }
