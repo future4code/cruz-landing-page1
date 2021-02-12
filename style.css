@@ -161,7 +161,7 @@ height: 80%;
 margin: auto;
 }
 
-.redes-sociais .logo{
+.redes-sociais .logo-footer{
     display: flex;
     flex-grow: 1;
     width: 80%;
@@ -328,7 +328,7 @@ label{
     .redes-sociais{
         width: auto;
     }
-    .redes-sociais .logo{
+    .redes-sociais .logo-footer{
         width: 50%;
         justify-content: center;
         margin: 0 auto;
