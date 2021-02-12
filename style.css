@@ -104,12 +104,43 @@ header a {
     margin: auto;
     justify-content: space-around;
 }
+.produto1 {
+   display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+    background-color: #FFF6DD;
+    height: 60vh;
+}
 
+.texto-central{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+button{
+    border: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    background-color:#FF9200;
+    border-radius: 20px;
+    height: 50px;
+            
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .produtos {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
+
+.card-produto{
+    display: flex;
+    flex-direction: column;
 }
 
 .produtos img {
@@ -125,11 +156,11 @@ header a {
     color: white;
 }
 
-
+/* Nossos diferenciais */
 
 main{
-    height: 10vh;
-    background-color: rgb(226, 226, 226);
+    
+   
 }
 footer{
     height: 200px;
@@ -353,8 +384,4 @@ label{
        text-align: center;
        width: min(80%,300px);
    }
-
-   .localizacao .loc{
-       /* max-resolution: 20px; */
-   } 
 }
