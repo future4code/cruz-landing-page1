@@ -9,7 +9,7 @@
 
 #banner {
     height: 100vh;
-    background-image: url("/cruz-landing-page1/img/banner.png");
+    background-image: url("img/banner.png");
     background-size: contain;
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ header a {
     color: white;
 }
 
-
+/* Nossos diferenciais */
 
 main{
     height: 10vh;
