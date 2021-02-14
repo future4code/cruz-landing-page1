@@ -43,17 +43,12 @@ header{
 header a {
     text-decoration: none;
     color: #2B2B2B;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .menu1 {
-    margin-left: 40px;
-    margin-right: 20px;
-}
-
-.menu2 {
-    margin-right: 40px;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* #chamada {
@@ -68,7 +63,7 @@ header a {
 
 .logo {
     width: 450px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .linhachamada {
@@ -83,8 +78,9 @@ header a {
 .texto-chamada {
     align-items: center;
     font-weight: 500;
-    line-height: 45px;
-    font-size: 30px;
+    line-height: 55px;
+    font-size: 35px;
+    text-align: center;
 }
 
 
