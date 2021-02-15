@@ -128,7 +128,9 @@ header a {
 
 
 #diferenciais {
-    height: 90vh;
+    height: 80vh;
+    margin: auto;
+    margin-bottom: 60px;
 }
 
 .container-diferenciais {
@@ -185,19 +187,20 @@ header a {
 
 #planos {
     background-color: #FFF6DD;
-    height: 60vh;
+    height: 750px;
+    display: flex;
+    margin-bottom: 60px;
 }
 
 .container-planos {
     width: 70vw;
     margin: auto;
+    margin-top: 0;
 }
 
-.produto1 {
-   display: flex;
-    flex-wrap: nowrap;
+.box-planos {
+    display: flex;
     justify-content: space-around; 
-    background-color: #FFF6DD;
 }
 
 .texto-central {
@@ -209,10 +212,9 @@ header a {
     align-items: center;
     text-align: center;
     align-items: center;
-    padding-top: 70px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 60px;
 }
-
 
 button{
     border: none;
@@ -223,6 +225,9 @@ button{
     background-color:#FF9200;
     border-radius: 25px;
     height: 50px;
+    width: 70%;
+    font-weight: 700;
+    color: white;
             
 }
 button:hover{
@@ -232,6 +237,24 @@ button:hover{
 .card-produto{
     display: flex;
     flex-direction: column;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9%;
+}
+
+.card-produto label {
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: #FF8B00;
+    font-weight: 900;
+}
+
+.card-produto img {
+    width: 50%;
+    margin: 10px;
 }
 
 
