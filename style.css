@@ -5,15 +5,10 @@
     font-family: 'Raleway';
 }
 
-body{
-    display: grid;
-    
-}
- 
 /* header */
 
 #banner {
-    
+    height: 100vh;
     background-image: url("img/banner.png");
     background-size: contain;
     background-position: left bottom;
@@ -49,6 +44,7 @@ header a {
     text-decoration: none;
     color: #2B2B2B;
     font-size: 20px;
+    height: 85vh;
 }
 
 .menu1 {
@@ -100,6 +96,7 @@ header a {
     width: 100%;
     display: flex;
     align-items: center;
+    height: 35vh;
 }
 
 .container-produtos {
@@ -137,6 +134,8 @@ header a {
 #diferenciais {
     margin: auto;
     margin-bottom: 60px;
+    height: 90vh;
+    
 }
 
 .container-diferenciais {
@@ -193,7 +192,7 @@ header a {
     background-color: #FFF6DD;
     display: flex;
     margin-bottom: 60px;
-    
+    height: 85vh;
 }
 
 .container-planos {
