@@ -31,7 +31,7 @@
 }
 
 header{
-    height: 15vh;
+    height: 20vh;
     width: 100%;
     color: gray;
     display: flex;
@@ -43,7 +43,7 @@ header{
 header a {
     text-decoration: none;
     color: #2B2B2B;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .menu1 {
@@ -62,8 +62,10 @@ header a {
 } */
 
 .logo {
-    width: 450px;
+    width: 25vw;
     margin-top: 30px;
+    display: flex;
+    margin: auto;
 }
 
 .linhachamada {
@@ -72,14 +74,15 @@ header a {
     background-color: #FF8B00;
     width: 150px;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    align-items: center;
 }
 
 .texto-chamada {
     align-items: center;
     font-weight: 500;
-    line-height: 55px;
-    font-size: 35px;
+    line-height: 45px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -89,14 +92,14 @@ header a {
 
 #nossos-produtos {
     background-color: #FF8B00;
-    height: 320px;
+    height: 35vh;
     width: 100%;
     display: flex;
     align-items: center;
 }
 
 .container-produtos {
-    width: 70vw;
+    width: 80vw;
     display: flex;
     margin: auto;
     justify-content: space-around;
@@ -111,14 +114,14 @@ header a {
 
 
 .produtos img {
-    width: 200px;
+    width: 15vh;
 
 }
 
 .produtos label {
     text-align: center;
     font-family: 'Dancing Script';
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: white;
     margin-top: 20px;
@@ -128,7 +131,7 @@ header a {
 
 
 #diferenciais {
-    height: 80vh;
+    height: 90vh;
     margin: auto;
     margin-bottom: 60px;
 }
@@ -142,7 +145,7 @@ header a {
 }
 
 .diferenciais-foto {
-    height: 50vh;
+    width: 25vw;
 }
 
 .topicos {
@@ -157,10 +160,10 @@ header a {
 .numero-topico {
     color: white;
     background-color: #FF8B00;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     font-family: 'Raleway';
-    border-radius: 100%;
+    border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,9 +173,9 @@ header a {
 
 .texto-topico {
     font-family: 'Raleway';
-    font-size: 35px;
+    font-size: 20px;
     margin-left: 30px;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 .linha-topico {
@@ -187,13 +190,13 @@ header a {
 
 #planos {
     background-color: #FFF6DD;
-    height: 750px;
     display: flex;
     margin-bottom: 60px;
+    height: 85vh;
 }
 
 .container-planos {
-    width: 70vw;
+    width: 80vw;
     margin: auto;
     margin-top: 0;
 }
@@ -201,11 +204,12 @@ header a {
 .box-planos {
     display: flex;
     justify-content: space-around; 
+    text-align: center;
 }
 
 .texto-central {
     font-family: 'Dancing Script';
-    font-size: 4.5em;
+    font-size: 50px;
     color: #FFB800;
     display: flex;
     justify-content: center;
@@ -221,12 +225,13 @@ button{
     border-top: none;
     border-right: none;
     border-left: none;
-    font-size: 20px;
     background-color:#FF9200;
-    border-radius: 25px;
-    height: 50px;
-    width: 70%;
+    border-radius: 40px;
+    height: auto;
+    width: auto;
     font-weight: 700;
+    font-size: 15px;
+    padding: 10px;
     color: white;
             
 }
@@ -238,22 +243,23 @@ button:hover{
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 22vw;
     justify-content: center;
     align-items: center;
     border-radius: 9%;
+    padding: 40px;
 }
 
 .card-produto label {
     font-family: 'Raleway';
-    font-size: 30px;
+    font-size: 25px;
     color: #FF8B00;
     font-weight: 900;
 }
 
 .card-produto img {
-    width: 50%;
+    width: 10vw;
     margin: 10px;
 }
 
@@ -301,15 +307,19 @@ button:hover{
 h4{
         font-family: 'Dancing Script'; 
         color: #FFB800;
-        font-size: 3.75em;
+        font-size: 50px;
+        font-weight: 700;
 }    
 .h4{
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    color: #FFB800;
     display: flex;
     justify-content: center;
-    height: 20%;
     align-items: center;
-        text-align: center;
-        margin: auto;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 60px;
 }
 
 
@@ -412,7 +422,7 @@ height: 32px;
     margin-right: 16px;
 }
 
-   .localizacao .loc {
+.localizacao .loc {
     /* width: 100%; */
  
 }
