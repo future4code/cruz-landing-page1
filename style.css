@@ -84,10 +84,10 @@ header a {
 }
 
 
-/* nossos serviços */
+/* produtos */
 
 
-#nossos-servicos {
+#nossos-produtos {
     background-color: #FF8B00;
     height: 320px;
     width: 100%;
@@ -121,8 +121,65 @@ header a {
     font-size: 40px;
     font-weight: 700;
     color: white;
+    margin-top: 20px;
 }
 
+/* diferenciais */
+
+
+#diferenciais {
+    height: 90vh;
+}
+
+.container-diferenciais {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.diferenciais-foto {
+    height: 50vh;
+}
+
+.topicos {
+
+}
+
+.item-topico {
+    display: flex;
+    align-items: center;
+}
+
+.numero-topico {
+    color: white;
+    background-color: #FF8B00;
+    width: 70px;
+    height: 70px;
+    font-family: 'Raleway';
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.texto-topico {
+    font-family: 'Raleway';
+    font-size: 35px;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+.linha-topico {
+    height: 5vh;
+    border-left: 4px dotted #FF8B00;
+    margin-left: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 /* planos */
 
@@ -145,14 +202,15 @@ header a {
 
 .texto-central {
     font-family: 'Dancing Script';
-    font-size: 3.75em;
+    font-size: 4.5em;
     color: #FFB800;
     display: flex;
     justify-content: center;
-    height: 20%;
     align-items: center;
     text-align: center;
     align-items: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
 }
 
 
@@ -163,7 +221,7 @@ button{
     border-left: none;
     font-size: 20px;
     background-color:#FF9200;
-    border-radius: 20px;
+    border-radius: 25px;
     height: 50px;
             
 }
