@@ -5,10 +5,10 @@
     font-family: 'Raleway';
 }
 
-body{
-    display: grid;
-    
+body, html {
+    scroll-behavior: smooth;
 }
+
  
 /* header */
 
@@ -19,6 +19,7 @@ body{
     background-position: left bottom;
     background-repeat: no-repeat;
     background-color: #FEFAEE;
+    height: 100vh;
 }
 
 .container-banner {
@@ -100,6 +101,7 @@ header a {
     width: 100%;
     display: flex;
     align-items: center;
+    height: 35vh;
 }
 
 .container-produtos {
@@ -192,7 +194,8 @@ header a {
 #planos {
     background-color: #FFF6DD;
     display: flex;
-    margin-bottom: 60px;
+    height: auto;
+    padding-bottom: 80px;
     
 }
 
@@ -309,6 +312,7 @@ h4{
         color: #FFB800;
         font-size: 50px;
         font-weight: 700;
+        margin-top: 80px;
 }    
 .h4{
     font-family: 'Dancing Script';
@@ -428,7 +432,11 @@ height: 32px;
  
 }
 
+.loc div {
+    display: flex;
+    align-items: center;
 
+}
 
 .localizacao .loc {
     width: min(80%,350px);
@@ -456,16 +464,134 @@ background-color: #EA8000;
 }
 
 
-@media  screen and (max-width:375px){
 
+@media  screen and (max-width:767px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+   /* banner */
+
+.container-banner {
+    width: 90vw;
+    display: flex;
+    height: auto;
+    float: none;
+    margin: auto;
+}
+
+
+header {
+    margin: 0;
+}
+
+.conteudo-banner {
+    width: 90vw;
+    display: flex;
+
+}
+
+.menu1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 60vw;
+}
+
+.texto-chamada {
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 5px;
+}
+
+.texto-chamada br {
+    display: none;
+}  
+
+/* produtos */
+
+#nossos-produtos {
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.container-produtos {
+    display: flex;
+    flex-direction: column;
+} 
+
+.produtos {
+    padding-top: 40px;
+}
+
+/* diferenciais */
+
+.container-diferenciais {
+    flex-direction: column-reverse;
+    width: 95vw;
+    margin: auto;
+}
+
+.numero-topico {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+}
+
+.linha-topico {
+    margin-left: 20px;
+}
+
+.texto-topico {
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+.diferenciais-foto {
+    margin-top: 30px;
+    width: 75vw;
+}
+/* planos */
+
+#planos {
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.card-produto:nth-of-type(2) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-planos{
+    flex-direction: column;
+    }
+
+.card-produto {
+    width: 100%;
+}
+
+.card-produto img {
+    width: 60vw;
+}
+  
+/* contato */
+  
     form{
         display: flex;
         flex-direction: column;
     }
     .formulario{
         font-size: 12px;
-        height: 650px;
+        height: auto;
         width: 100%;
+        padding-bottom: 50px;
     }
     .h4{
         align-items: center;
@@ -503,19 +629,25 @@ background-color: #EA8000;
    .localizacao {
        text-align: center;
        width: min(80%,300px);
+       align-items: center;
    }
 
+   .loc {
+       margin-top: 20px;
+       margin-bottom: 20px;
+       align-items: center;
+   }
    
-.box-planos{
-    flex-direction: column;
-    
-    }
-.card-produto{
-    width: 100%;
+
+
+/* footer */
+
+.logo-footer {
+    padding-top: 40px;
 }
 
- body{
-     display: flex;
-     flex-direction: column;
- }
+.alunos {
+    font-size: 20px;
+}
+
 }
