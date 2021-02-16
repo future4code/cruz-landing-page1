@@ -5,6 +5,10 @@
     font-family: 'Raleway';
 }
 
+body, html {
+    scroll-behavior: smooth;
+}
+
  
 /* header */
 
